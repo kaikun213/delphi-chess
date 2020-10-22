@@ -1,0 +1,425 @@
+[Closed Files]
+File_0=SourceModule,'C:\Informatik\InLK3\Schach 31.12.2012\Unit2.pas',0,1,1,1,1,0,0
+File_1=SourceModule,'C:\Progs\SchachTL\HauptFm.pas',0,1,1,1,1,1,0
+File_2=SourceModule,'C:\Progs\SchachTL\uFEN.pas',0,1,1,1,1,0,0
+File_3=SourceModule,'C:\Progs\SchachTL\uDame.pas',0,1,1,1,1,0,0
+File_4=SourceModule,'C:\Progs\SchachTL\uBauern.pas',0,1,1,1,1,0,0
+File_5=SourceModule,'C:\Progs\SchachTL\uTurm.pas',0,1,1,1,1,0,0
+File_6=SourceModule,'C:\Progs\SchachTL\uStrategien.pas',0,1,1,1,1,0,0
+File_7=SourceModule,'C:\Progs\SchachTL\uSpringer.pas',0,1,1,1,1,0,0
+File_8=SourceModule,'C:\Progs\SchachTL\uSpielbaeume.pas',0,1,1,1,1,0,0
+File_9=SourceModule,'C:\Progs\SchachTL\uSchachFigur.pas',0,1,1,1,1,0,0
+
+[Modules]
+Module0=C:\Informatik\InLK3\Schach 31.12.2012\uHeuristik.pas
+Module1=C:\Informatik\InLK3\Schach 31.12.2012\uABVerfahren.pas
+Module2=C:\Informatik\InLK3\Schach 31.12.2012\HauptFm.pas
+Module3=C:\Informatik\InLK3\Schach 31.12.2012\NetzwerkFm.pas
+Module4=C:\Informatik\InLK3\Schach 31.12.2012\uSchach.pas
+Module5=C:\Informatik\InLK3\Schach 31.12.2012\uMaxMin.pas
+Module6=C:\Informatik\InLK3\Schach 31.12.2012\uTurm.pas
+Module7=C:\Informatik\InLK3\Schach 31.12.2012\uSpringer.pas
+Module8=C:\Informatik\InLK3\Schach 31.12.2012\uLaeufer.pas
+Module9=C:\Informatik\InLK3\Schach 31.12.2012\uKoenig.pas
+Module10=C:\Informatik\InLK3\Schach 31.12.2012\uFEN.pas
+Module11=C:\Informatik\InLK3\Schach 31.12.2012\uDame.pas
+Module12=C:\Informatik\InLK3\Schach 31.12.2012\uBauern.pas
+Count=13
+EditWindowCount=1
+
+[C:\Informatik\InLK3\Schach 31.12.2012\uHeuristik.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Informatik\InLK3\Schach 31.12.2012\uABVerfahren.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Informatik\InLK3\Schach 31.12.2012\HauptFm.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=0
+
+[C:\Informatik\InLK3\Schach 31.12.2012\NetzwerkFm.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=1
+
+[C:\Informatik\InLK3\Schach 31.12.2012\uSchach.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Informatik\InLK3\Schach 31.12.2012\uMaxMin.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Informatik\InLK3\Schach 31.12.2012\uTurm.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Informatik\InLK3\Schach 31.12.2012\uSpringer.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Informatik\InLK3\Schach 31.12.2012\uLaeufer.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Informatik\InLK3\Schach 31.12.2012\uKoenig.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Informatik\InLK3\Schach 31.12.2012\uFEN.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Informatik\InLK3\Schach 31.12.2012\uDame.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Informatik\InLK3\Schach 31.12.2012\uBauern.pas]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Program Files (x86)\Borland\Delphi7\Projects\ProjectGroup1.bpg]
+FormState=0
+FormOnTop=0
+
+[C:\Informatik\InLK3\Schach 31.12.2012\SchachProjekt.dpr]
+FormState=0
+FormOnTop=0
+SymbolFile=C:\Informatik\InLK3\Schach 31.12.2012\SchachProjekt.dsm
+ModSinceCompile=0
+
+[EditWindow0]
+ViewCount=13
+CurrentView=6
+View0=0
+View1=1
+View2=2
+View3=3
+View4=4
+View5=5
+View6=6
+View7=7
+View8=8
+View9=9
+View10=10
+View11=11
+View12=12
+MessageView=MessageView@EditWindow0
+Create=1
+Visible=1
+State=0
+Left=200
+Top=138
+Width=1302
+Height=682
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1294
+ClientHeight=655
+LeftPanelSize=0
+RightPanelSize=0
+BottomPanelSize=85
+BottomPanelClients=MessageView@EditWindow0
+BottomPanelData=000004000000000000000000000000000000000000000000000100000000000000000B0000004D65737361676556696577FFFFFFFF
+
+[View0]
+Module=C:\Informatik\InLK3\Schach 31.12.2012\HauptFm.pas
+CursorX=63
+CursorY=347
+TopLine=342
+LeftCol=1
+
+[View1]
+Module=C:\Informatik\InLK3\Schach 31.12.2012\NetzwerkFm.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View2]
+Module=C:\Informatik\InLK3\Schach 31.12.2012\uABVerfahren.pas
+CursorX=64
+CursorY=25
+TopLine=1
+LeftCol=1
+
+[View3]
+Module=C:\Informatik\InLK3\Schach 31.12.2012\uBauern.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View4]
+Module=C:\Informatik\InLK3\Schach 31.12.2012\uDame.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View5]
+Module=C:\Informatik\InLK3\Schach 31.12.2012\uFEN.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View6]
+Module=C:\Informatik\InLK3\Schach 31.12.2012\uHeuristik.pas
+CursorX=16
+CursorY=26
+TopLine=1
+LeftCol=1
+
+[View7]
+Module=C:\Informatik\InLK3\Schach 31.12.2012\uKoenig.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View8]
+Module=C:\Informatik\InLK3\Schach 31.12.2012\uLaeufer.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View9]
+Module=C:\Informatik\InLK3\Schach 31.12.2012\uMaxMin.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View10]
+Module=C:\Informatik\InLK3\Schach 31.12.2012\uSchach.pas
+CursorX=78
+CursorY=8
+TopLine=1
+LeftCol=1
+
+[View11]
+Module=C:\Informatik\InLK3\Schach 31.12.2012\uSpringer.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[View12]
+Module=C:\Informatik\InLK3\Schach 31.12.2012\uTurm.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[Watches]
+Count=0
+
+[WatchWindow]
+WatchColumnWidth=100
+WatchShowColumnHeaders=1
+Create=1
+Visible=0
+State=0
+Left=423
+Top=186
+Width=291
+Height=338
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=283
+ClientHeight=314
+TBDockHeight=157
+LRDockWidth=447
+Dockable=1
+
+[Breakpoints]
+Count=0
+
+[AddressBreakpoints]
+Count=0
+
+[Main Window]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=12
+Width=1920
+Height=105
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1912
+ClientHeight=78
+
+[ProjectManager]
+Create=1
+Visible=0
+State=0
+Left=337
+Top=217
+Width=438
+Height=303
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=430
+ClientHeight=279
+TBDockHeight=303
+LRDockWidth=438
+Dockable=1
+
+[CPUWindow]
+Create=1
+Visible=0
+State=0
+Left=673
+Top=203
+Width=1267
+Height=794
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1259
+ClientHeight=767
+DumpPane=238
+DisassemblyPane=371
+RegisterPane=231
+FlagPane=146
+
+[AlignmentPalette]
+Create=1
+Visible=0
+State=0
+Left=200
+Top=107
+Width=156
+Height=82
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=150
+ClientHeight=60
+
+[PropertyInspector]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=477
+Width=190
+Height=557
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=182
+ClientHeight=533
+TBDockHeight=557
+LRDockWidth=190
+Dockable=1
+SplitPos=85
+ArrangeBy=Name
+SelectedItem=Name
+ExpandedItems=
+HiddenCategories=
+
+[BreakpointWindow]
+Create=1
+Visible=0
+State=0
+Left=591
+Top=441
+Width=737
+Height=197
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=729
+ClientHeight=173
+TBDockHeight=161
+LRDockWidth=737
+Dockable=1
+Column0Width=100
+Column1Width=75
+Column2Width=200
+Column3Width=200
+Column4Width=75
+Column5Width=75
+
+[CallStackWindow]
+Create=1
+Visible=1
+State=0
+Left=13
+Top=814
+Width=429
+Height=289
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=421
+ClientHeight=265
+TBDockHeight=161
+LRDockWidth=421
+Dockable=1
+
+[ObjectTree]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=105
+Width=190
+Height=370
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=182
+ClientHeight=346
+TBDockHeight=370
+LRDockWidth=190
+Dockable=1
+
+[LocalVarsWindow]
+Create=1
+Visible=0
+State=0
+Left=423
+Top=1016
+Width=291
+Height=405
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=283
+ClientHeight=381
+TBDockHeight=189
+LRDockWidth=447
+Dockable=1
+
+[MessageView@EditWindow0]
+Create=1
+Visible=1
+State=0
+Left=12
+Top=0
+Width=1282
+Height=85
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1282
+ClientHeight=85
+TBDockHeight=85
+LRDockWidth=443
+Dockable=1
+
+[DockHosts]
+DockHostCount=0
+

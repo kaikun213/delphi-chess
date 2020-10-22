@@ -1,0 +1,146 @@
+unit uTurm;
+
+interface
+ uses uSchach;
+
+ type
+
+ TTurm = class(TSchachFigur)
+           BinZweiGezogen : Boolean;
+           constructor Create;
+           function KannZiehen(P:TPosition; MitSP:Boolean): Boolean; override;
+           procedure MoveTo(P:TPosition); override;
+          end;
+
+
+  function GradeIstFrei(P1,P2:TPosition) : Boolean;
+
+implementation
+
+constructor TTurm.Create;
+ begin
+  inherited Create;
+  Typ:= Turm;
+ end;
+
+function TTurm.KannZiehen(P:TPosition; MitSP:Boolean): Boolean;
+var PImBrett,PIstFrei,PIstFeind,WegIstFrei : boolean;
+begin
+ PImBrett:= (P.x <= 8) and (P.x >= 1) and (P.y <= 8) and (P.y >= 1);
+ PIstFrei:= (Brett[P.x,P.y] = nil);
+ PIStFeind:= (Brett[P.x,P.y] <> nil) and (Farbe <> Brett[P.x,P.y].Farbe);
+ WegIstFrei:= GradeIstFrei(Position,P);
+
+ Result:= PImBrett and
+           (PIstFrei or PIstFeind) and
+              WegIstFrei;
+ if MitSP then Result:=Result and Schachprobe(P);
+end;
+
+procedure TTurm.MoveTo(P:TPosition);
+//Philipp
+var m,WK,WQ,SK,SQ: TPosition;
+begin
+ WK.x := 8;
+ WK.y := 1;
+ WQ.x := 1;
+ WQ.y := 1;
+ SK.x := 8;
+ SK.y := 8;
+ SQ.x := 1;
+ SQ.y := 8;
+ m := Position;
+ inherited MoveTo(P);
+ if (m.x=WK.x) and (m.y=WK.y) then RochadeWK := false;
+ if (m.x=WQ.x) and (m.y=WQ.y) then RochadeWQ := false;
+ if (m.x=SK.x) and (m.y=SK.y) then RochadeSK := false;
+ if (m.x=SQ.x) and (m.y=SQ.y) then RochadeSQ := false;
+end;
+
+function GradeIstFrei(P1,P2:TPosition) : Boolean;
+ var k1,k2 : Integer;
+     F,H: boolean;
+
+ begin
+  H:=true;
+  F:=False;
+  k1:=P1.x;
+  k2:=P1.y;
+  if (P2.x > P1.x) and (P2.y = P1.y) then
+                   begin
+                   k1:=k1+1;
+                   if k1 = P2.x then F:=true
+                    else
+                    begin
+                     while (k1 <> P2.x) and (H = true)do
+                      begin
+                       if Brett[k1,k2] = nil then F:= true
+                                   else
+                                    begin
+                                     F:= False;
+                                     H:=false;
+                                    end;
+                       k1:= k1 +1;
+                      end;
+                     end;
+                     end;
+  if (P2.x < P1.x) and (P2.y = P1.y) then
+                          begin
+                          k1:=k1-1;
+                            if k1 = P2.x then F:=true
+                           else
+                             begin
+                            while (k1 <> P2.x) and (H = true) do
+                               begin
+                                if Brett[k1,k2] = nil then F:= true
+                                            else
+                                             begin
+                                              F:= False;
+                                               H:=false;
+                                             end;
+                                k1:= k1 - 1;
+                               end;
+                               end;
+                           end;
+ if (P2.y > P1.y) and (P2.x = P1.x) then
+                   begin
+                   k2:=k2+1;
+                     if k2 = P2.y then F:=true
+                    else
+                    begin
+                    while (k2 <> P2.y) and (H = true) do
+                      begin
+                       if Brett[k1,k2] = nil then F:= true
+                                   else
+                                    begin
+                                     F:= False;
+                                      H:=false;
+                                    end;
+                       k2:= k2 +1;
+                      end;
+                      end;
+                     end;
+ if (P2.y < P1.y) and (P2.x = P1.x) then
+                          begin
+                          k2:=k2-1;
+                           if k2 = P2.y then F:=true
+                           else
+                            begin
+                            while (k2 <> P2.y) and (H = true)do
+                               begin
+                                if Brett[k1,k2] = nil then F:= true
+                                            else
+                                             begin
+                                              F:= False;
+                                              H:=false;
+                                             end;
+                                k2:= k2 - 1;
+                               end;
+                               end;
+                           end;
+ Result := F;
+
+ end;
+
+
+end.
